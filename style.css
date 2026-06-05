@@ -126,14 +126,37 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 25px 60px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
     margin-bottom: 12px;
 }
 
-.quiz-header h2{
-    color: #fff;
+.category-badge {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgba(7, 61, 154, 0.461);
+    padding: 14px;
+    border-radius: 999px;
+    border: 1px solid rgb(46, 100, 193);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.subcategory-badge {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgba(7, 61, 154, 0.461);
+    padding: 14px;
+    border-radius: 999px;
+    border: 1px solid rgb(46, 100, 193);
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    /* text-transform: uppercase; */
 }
 
 
@@ -301,4 +324,49 @@ body{
 .timer-warning {
     color: red !important;
     font-weight: 700;
+}
+
+.result-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.result-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.result-icon .fa-trophy { 
+    color: #f59e0b; 
+}
+.result-icon .fa-star { 
+    color: #3b82f6; 
+}
+.result-icon .fa-face-smile { 
+    color: #22c55e; 
+}
+.result-icon .fa-book-open { 
+    color: #6366f1; 
+}
+
+.result-message {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.result-score {
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #031363, #00a1f1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
 }
