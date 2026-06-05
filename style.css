@@ -297,3 +297,8 @@ body{
         padding: 14px;
     }
 }
+
+.timer-warning {
+    color: red !important;
+    font-weight: 700;
+}
